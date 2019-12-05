@@ -1,0 +1,126 @@
+.cart-container{
+	width: 996px;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.16);
+}
+.cart-header{
+	padding: 24px 40px;
+	position: relative;
+}
+.cart-header-username{
+	margin: 0;
+	max-width: 180px;
+	word-wrap: break-word;
+	word-break: break-all;
+	height: 33px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	border: none;
+	font-size: 22px;
+	color: #333;
+	cursor: default;
+}
+.cart-header-userid{
+	color: #999;
+	width: 236px;
+	box-sizing: border-box;
+	border-right: 1px solid #f3f3f3;
+	font-weight: 500;		
+}
+.cart-content{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 2px 35px;
+	padding: 0 40px;
+}
+.cart-content-header{
+	background-color: #f8fafc;
+	padding: 12px 20px;
+	margin-bottom: 16px;
+}
+.cart-content-header-text{
+	color: #444950 !important;
+	font-weight: 700 !important;
+	margin-right: 16px;
+	padding: 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+	display: inline-block;
+}
+.cart-content-header-select{
+	width: 30px;
+}
+.cart-content-header-no{
+	width: 30px;
+}
+.cart-content-header-preview{
+	width: 112px;
+}
+
+.cart-content-header-base_info{
+	width: 160px;
+}
+.cart-content-header-price{
+	width: 69px;
+}
+.cart-content-header-num{
+	width: 100px;
+}
+.cart-content-header-payment{
+	width: 100px;
+	margin-right: 60px;
+}
+.cart-content-header-action{
+	width: 60px;
+}
+.cart-content-list{
+	padding: 20px 0;
+	padding-left: 20px;
+}
+.cart-content-item{
+	display: flex;
+	margin-bottom: 20px;
+}
+.cart-content-item-distance{
+	margin-right: 20px;
+}
+.cart-content-item-select{
+	width: 30px;
+}
+.cart-content-item-no{
+	width: 30px;
+}
+.cart-content-item-preview{
+	width: 112px;
+}
+.cart-content-item-base_info{
+	width: 160px;
+}
+.cart-content-item-price{
+	width: 69px;
+}
+.cart-content-item-num{
+	width: 100px;
+}
+.cart-content-item-payment{
+	width: 100px;
+	margin-right: 62px;
+}
+.cart-content-item-action{
+	width: 60px;
+}
+.cart-content-footer{
+	display: flex;
+	padding-left: 20px;
+	align-items: center;
+	margin-bottom: 20px;
+	width: 886px;
+}
+.cart-content-footer-payment{
+	font-weight: 700;
+}
+.cart-content-footer-submit{
+	margin-left: auto;
+}
