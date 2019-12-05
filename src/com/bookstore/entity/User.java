@@ -3,7 +3,7 @@ package com.bookstore.entity;
 import java.util.Date;
 
 /**
- * 用户实体
+ * 用户实体修改
  */
 public class User {
 	private String 	id;			//用户id
